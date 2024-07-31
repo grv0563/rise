@@ -10,11 +10,12 @@ function Signup() {
   }
   return (
     <div className="signup-page">
+      <h2>Welcome to RISE !</h2>
       <form className="signup-form" onSubmit={handleSubmit}>
         <div className="form-field">
         <label className="emial-lable">Emial</label>
         <input
-        className="input-field email-field"
+        className="input-field "
           type="email"
           onInput={(e) => {
             setemail(e.target.value);
@@ -34,7 +35,7 @@ function Signup() {
         />
         </div>
         <div className="form-field">
-        <button type="submit">Submit</button>
+        <button className="submit-btn" type="submit">Submit</button>
         </div>
       </form>
       <h1>{result}</h1>

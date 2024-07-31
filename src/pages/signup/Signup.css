@@ -2,12 +2,17 @@
     margin-top: 100px;
     text-align: center;
     margin-right: 30%;
+   
 }
 .signup-form{
     margin: 10px;
 }
 .input-field{
 margin: 10px;
+height: 40px;
+width: 250px;
+border: 2px solid;
+border-radius: 8px;
 }
 .form-field .emial-lable{
     margin-right: 30px;
@@ -16,5 +21,11 @@ margin: 10px;
     margin: 10px;
 }
 .submit-btn{
-    margin-left: 190px;
+    margin-top: 20px;
+    margin-left: 210px;
+    height: 40px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 8px;
+
 }
