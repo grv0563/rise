@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/NavigationBar';
-function Home() {
+function Profile() {
   return (
-    <div className='home-container'>
+    <div>
         <Navbar/>
-      Home
+      profile
     </div>
   )
 }
 
-export default Home
+export default Profile

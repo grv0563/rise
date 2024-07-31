@@ -1,12 +1,13 @@
 import React from 'react'
+import './Schedules.css'
 import Navbar from '../../components/NavigationBar';
-function Home() {
+function Schedules() {
   return (
-    <div className='home-container'>
+    <div>
         <Navbar/>
-      Home
+      Schedules
     </div>
   )
 }
 
-export default Home
+export default Schedules;

@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../../components/NavigationBar';
-function Home() {
+import './Mission.css'
+function Mission() {
   return (
-    <div className='home-container'>
+    <div>
         <Navbar/>
-      Home
+      Mission
     </div>
   )
 }
 
-export default Home
+export default Mission

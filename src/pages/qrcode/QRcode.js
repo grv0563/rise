@@ -1,12 +1,13 @@
 import React from 'react'
+import './QRcode.css'
 import Navbar from '../../components/NavigationBar';
-function Home() {
+function QRcode() {
   return (
-    <div className='home-container'>
+    <div>
         <Navbar/>
-      Home
+      Qrcode
     </div>
   )
 }
 
-export default Home
+export default QRcode
