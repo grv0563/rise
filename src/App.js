@@ -1,10 +1,11 @@
 import './App.css';
+import Signup from './pages/signup/Signup';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Hello Rise</h1>
+      <Signup/>
       </header>
     </div>
   );
