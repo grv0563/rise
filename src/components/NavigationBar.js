@@ -6,7 +6,7 @@ function NavigationBar() {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/home">Rise</Navbar.Brand>
+        <Navbar.Brand href="/home">RISE</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
@@ -21,7 +21,7 @@ function NavigationBar() {
           </Navbar.Text>
           <Navbar.Text>
             <a className="navbar-qrcode" href="/qrcode">
-              QRcode
+              QR
             </a>
           </Navbar.Text>
           <Navbar.Text>
