@@ -1,10 +1,13 @@
 .home-container{
+    
+    
     text-align: center;
 }
 .main-area{
     justify-content:space-around;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 .main-area img{
    width: 100%;
@@ -13,4 +16,7 @@
    border-radius: 2px;
     
     
+}
+p{
+  text-align: justify;
 }
