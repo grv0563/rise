@@ -8,6 +8,8 @@ import QRcode from "./pages/qrcode/QRcode";
 import Schedules from "./pages/schedules/Schedules";
 import Scan from "./pages/qrcode/Scan";
 import Mission from "./pages/mission/Mission";
+import Blog from "./pages/blog/Blog";
+import Values from "./pages/values/Values";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +21,8 @@ function App() {
         <Route path="/shedules" element={<Schedules />} />
         <Route path="/qrscan" element={<Scan />} />
         <Route path="/mission" element={<Mission />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/values" element={<Values />} />
       </Routes>
     </BrowserRouter>
   );

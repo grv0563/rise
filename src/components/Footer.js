@@ -20,23 +20,23 @@ function Footer() {
           <ul>
             <h3>Connect</h3>
             <li>
-              <a href="#">Linkedin</a>
+              <a href="https://www.linkedin.com/in/gaurav0563/">Linkedin</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
           </ul>
 
           <ul>
             <h3>About Us</h3>
             <li>
-              <a href="#">Meet Our Team</a>
+              <a href="">Meet Our Team</a>
             </li>
             <li>
-              <a href="#">Our Ambitions</a>
+              <a href="/mission">Our Ambitions</a>
             </li>
             <li>
-              <a href="#">Our Values</a>
+              <a href="/values">Our Values</a>
             </li>
           </ul>
         </div>

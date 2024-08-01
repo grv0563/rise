@@ -25,7 +25,7 @@ function NavigationBar() {
             </a>
           </Navbar.Text>
           <Navbar.Text>
-            Signed in as: <a href="/profile">User</a>
+            Logged as: <a href="/profile">User</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

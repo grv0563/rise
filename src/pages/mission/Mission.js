@@ -12,11 +12,11 @@ function Mission() {
       <div className="mission-main">
         <h1>What is Our Mission</h1>
         <h3>Single Portal to access the Healthcare across India </h3>
-        <h2>Problem - What & Why</h2>
-        <p>
+        <h3>Problem - What & Why</h3>
+        <h4>
           We are Building Healthcare App to Address 2 Major problem of India's
           Healthcare System.
-        </p>
+        </h4>
         <ul>
           <li>
             <b>
@@ -71,10 +71,10 @@ function Mission() {
 
           <div className="grv-profile-details"></div>
           <div>
-            <a href="https://www.linkedin.com/in/gaurav0563/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/gaurav0563/"><h4>Linkedin</h4></a>
           </div>
 
-          <a href="https://grvnotes.com/">Website</a>
+          <a href="https://grvnotes.com/"><h4>Website</h4></a>
         </div>
       </div>
 

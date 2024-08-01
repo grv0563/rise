@@ -169,7 +169,7 @@ function Home() {
             </li>
           </ul>
         </p>
-        <h3>Back to discussion</h3>
+        <h3>Back to discussion ...</h3>
         <p >
           Now, you can see the Big picture. Patient, provider and
           Payors(Insurnace companies) are the Big Important 3. Insurance
