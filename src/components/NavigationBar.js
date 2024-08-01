@@ -1,12 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavigationBar.css";
+import logo from '../assets/logo.png'
 
 function NavigationBar() {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/home">RISE</Navbar.Brand>
+        <Navbar.Brand href="/home"><img src={logo} alt="company logo"/></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
