@@ -10,34 +10,73 @@ function Mission() {
         <Navbar />
       </div>
       <div className="mission-main">
-        <h1>What is Our Mission</h1>
-        <h3>Single Portal to access the Healthcare across India </h3>
-        <h3>Problem - What & Why</h3>
-        <h4>
-          We are Building Healthcare App to Address 2 Major problem of India's
-          Healthcare System.
-        </h4>
-        <ul>
-          <li>
-            <b>
-              1. Presonalized Heathcare or Precision Medicine by Building system
-              of storing and sharing the Health information anytime and anywhere
-            </b>
-          </li>
-          <li>
-            <b>
-              2. Reducing Cost Of Healthcare Delivery in India by solving the
-              pain point of Healthcare insurance claim cycle delivery using
-              Balockchain and AI
-            </b>
-          </li>
-        </ul>
-        <h3></h3>
-        <h2>Solution is the Mission</h2>
-        <p>Comming soon</p>
-
+        <div className="mission-main-top">
+          <h4 style={{textAlign:"center"}}>What is Our Mission</h4>
+          <h6 style={{textAlign:"center"}}>Single Portal to access the Healthcare across India </h6>
+          <h4 style={{textAlign:"center"}}>Problem - What & Why</h4>
+          <h6>
+            We are Building Healthcare App to Address 2 Major problem of India's
+            Healthcare System
+          </h6>
+          <ul>
+            <li>
+              <b>
+                1. Presonalized Heathcare or Precision Medicine by Building
+                system of storing and sharing the Health information anytime and
+                anywhere
+              </b>
+            </li>
+            <li>
+              <b>
+                2. Reducing Cost Of Healthcare Delivery in India by solving the
+                pain point of Healthcare insurance claim cycle delivery using
+                Balockchain and AI
+              </b>
+            </li>
+          </ul>
+          <h4 style={{textAlign:"center"}}>Solution is the Mission</h4>
+          <h6>
+            {" "}
+            We are Building Healthcare App to Address 2 Major problem of India's
+            Healthcare System
+          </h6>
+          <h6>
+            1. Presonalized Heathcare or Precision Medicine by Building system
+            of storing and sharing the Health information anytime and anywhere{" "}
+          </h6>
+          <h6>
+            2. Reducing Cost Of Healthcare Delivery in India using Balockchain
+            and AI{" "}
+          </h6>
+          <h3 style={{textAlign:"center"}}>  Future Directions</h3>
+          <h6>
+            {" "}
+            1. Building Nation Wide Network of Healthcare
+            Providers(Hospitals,Clinics,Old Age Home,NGOs, Testing
+            centers/Medical Labs, Nursing Homes){" "}
+          </h6>{" "}
+          <h6>
+            {" "}
+            2. Building Nation Wide Network Network of Healthcare
+            Professionals(Doctors, Nurses,Allied Heathcare Professionals){" "}
+          </h6>
+          <h6>
+            {" "}
+            3. Building Nation Wide Network of Medical Emergemcey Help Service
+            Like Ambulence with PPP model with State/Central Government
+          </h6>
+          <h6>
+            {" "}
+            4. Building strong Marketplace for providing TeleHealth Services
+            across the World: Leveraging medical/health tourism for Creating
+            Employment and Strenthing the Heathcare Delivery with Consideration
+            of Patient Experience{" "}
+          </h6>
+        </div>
         <div className="grv-profile">
           <div className="grv-profile-img">
+            <hr></hr>
+            <hr></hr>
             <h2>Who we Are ?</h2>
             <img src={grvPhoto} alt="Gaurav Shakya's Profile Photo" />
           </div>
@@ -71,10 +110,14 @@ function Mission() {
 
           <div className="grv-profile-details"></div>
           <div>
-            <a href="https://www.linkedin.com/in/gaurav0563/"><h4>Linkedin</h4></a>
+            <a href="https://www.linkedin.com/in/gaurav0563/">
+              <h4>Linkedin</h4>
+            </a>
           </div>
 
-          <a href="https://grvnotes.com/"><h4>Website</h4></a>
+          <a href="https://grvnotes.com/">
+            <h4>Website</h4>
+          </a>
         </div>
       </div>
 
