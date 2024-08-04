@@ -11,12 +11,14 @@ import Mission from "./pages/mission/Mission";
 import Blog from "./pages/blog/Blog";
 import Values from "./pages/values/Values";
 import AfterScan from "./pages/qrcode/AfterScan";
+import Login from "./pages/login/Login";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Signup />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/qrcode" element={<QRcode />} />
         <Route path="/shedules" element={<Schedules />} />
@@ -25,7 +27,6 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/values" element={<Values />} />
         <Route path="/afterscan" element={<AfterScan />} />
-        
       </Routes>
     </BrowserRouter>
   );

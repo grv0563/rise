@@ -1,31 +1,69 @@
-.signup-page{
-    margin-top: 100px;
-    text-align: center;
-    margin-right: 30%;
-   
-}
-.signup-form{
-    margin: 10px;
-}
-.input-field{
-margin: 10px;
-height: 40px;
-width: 250px;
-border: 2px solid;
-border-radius: 8px;
-}
-.form-field .emial-lable{
-    margin-right: 30px;
-}
-.input-field{
-    margin: 10px;
-}
-.submit-btn{
-    margin-top: 20px;
-    margin-left: 210px;
-    height: 40px;
-    width: 80px;
-    border: 2px solid;
-    border-radius: 8px;
 
-}
+.auth-form {
+    max-width: 360px;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+  }
+  ul, li, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  /* layout */
+  .page-title {
+    font-size: 1em;
+    color: var(--heading-color);
+    display: inline-block;
+  }
+  .btn {
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid var(--primary-color);
+  }
+  .btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+  }
+  
+  /* forms */
+  label {
+    display: block;
+    margin: 24px auto;
+  }
+  label span {
+    display: block;
+    margin-bottom: 6px;
+  }
+  input, textarea {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  textarea {
+    min-height: 160px;
+  }
+  .error {
+    color: red;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  .login-btn{
+    text-align: center;
+  }

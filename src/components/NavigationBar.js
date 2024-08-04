@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/home"><img src={logo} alt="company logo"/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} alt="company logo"/></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>

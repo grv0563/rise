@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import logo from "../assets/logo.png";
 
 function Footer() {
+  const [email, setemail] = useState("");
+  const handle_stay_in_touch = (e) => {
+    e.preventDefault();
+    alert("Thank you for your Interest " + email);
+    setemail("")
+  };
+
   return (
     <footer>
       <div class="top">
@@ -42,25 +49,32 @@ function Footer() {
         </div>
         <div class="newsletter">
           <h3>Stay in Touch</h3>
-          <form>
+          <form onSubmit={handle_stay_in_touch}>
             <input
               type="email"
               name="newsletter_email"
               id="newsletter_email"
               placeholder="Email"
+              onChange={(e) => {
+                setemail(e.target.value);
+              }}
+              value={email}
             />
-            <input type="button" value="Submit" />
+
+            <button className="btn" type="email">
+              Submit
+            </button>
           </form>
         </div>
       </div>
-      <div class="social">
+      {/* <div class="social">
         <i class="fab fa-linkedin"></i>
         <i class="fab fa-github"></i>
         <i class="fab fa-facebook"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-youtube"></i>
-      </div>
+      </div> */}
       <div class="info">
         <div class="legal">
           <a href="#">Terms & Conditions</a>
