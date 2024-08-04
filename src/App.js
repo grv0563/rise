@@ -12,7 +12,9 @@ import Blog from "./pages/blog/Blog";
 import Values from "./pages/values/Values";
 import AfterScan from "./pages/qrcode/AfterScan";
 import Login from "./pages/login/Login";
+import { useState } from "react";
 function App() {
+  const [loggedin,setLoggedin]=useState(true);
   return (
     <BrowserRouter>
       <Routes>

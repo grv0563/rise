@@ -25,10 +25,10 @@ function Home() {
           or <b>Precision Medicine</b> across Healthcare Industry Ecosystem. It
           solve the biggest pain points of Healthcare Industry specially focused
           on Indian Healthcare Ecosystem.
-          <b>The biggest 2 challenges Indian Healthcare Industry faces are</b>
+          <b>The biggest 2 challenges Indian Healthcare System faces are</b>
           <ul>
             <li>
-              <b>1. Out of Pocket Healthcare Expenditure.</b>
+              <b>1. Out of Pocket Expenditure on Healthcare.</b>
             </li>
             <li>
               <b>

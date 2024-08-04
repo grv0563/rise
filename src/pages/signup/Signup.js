@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Signup.css";
+import {getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import {app} from "../../firebase/config"
+
 // import { useSignup } from "../../hooks/useSignup";
 
 function Signup() {
@@ -8,9 +11,24 @@ function Signup() {
   const [displayname, setdispalyname] = useState("");
   // const [thumbnail, setthumbnail] = useState(null);
   // const { signup, isPending, error } = useSignup();
+
   const handlesubmit = (e) => {
     e.preventDefault();
     console.log(email, password, displayname);
+    const auth = getAuth(app);
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed up
+        const user = userCredential.user;
+        console.log(user)
+        
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // ..
+      });
     setemail("");
     setpassword("");
     setdispalyname("");
@@ -57,12 +75,14 @@ function Signup() {
         <input required type="file" />
       </label> */}
 
-        <button className="btn">Sign up</button>
+        <button className="btn">Register</button>
       </form>
       <hr></hr>
       <div className="login-btn">
         <p>Already Registred ?</p>
-      <button className="btn"><a href="/login">Login</a></button>
+        <button className="btn">
+          <a href="/login">Login</a>
+        </button>
       </div>
     </div>
   );
