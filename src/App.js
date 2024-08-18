@@ -11,6 +11,10 @@ import Learn from "./pages/learn/Learn";
 import Values from "./pages/values/Values";
 import AfterScan from "./pages/qrcode/AfterScan";
 import Login from "./pages/login/Login";
+import Scan from "./pages/qrcode/Scan"
+import Vision from "./pages/vision/Vision"
+import Aboutus from "./pages/about/Aboutus"
+import RoadMap from "./pages/roadmap/RoadMap"
 import { useState } from "react";
 function App() {
   const [loggedin,setLoggedin]=useState(true);
@@ -24,11 +28,16 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/qrcode" element={<QRcode />} />
+        <Route path="/qrscan" element={<Scan />} />
+        <Route path="/afterscan" element={<AfterScan />} />
         <Route path="/shedules" element={<Schedules />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/mission" element={<Mission />} />
+        <Route path="/vision" element={<Vision />} />
         <Route path="/values" element={<Values />} />
-        <Route path="/afterscan" element={<AfterScan />} />
+        <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/roadmap" element={<RoadMap />} />
+        
       </Routes>
     </BrowserRouter>
     </>

@@ -30,7 +30,7 @@ function Footer() {
               <a href="https://www.linkedin.com/in/gaurav0563/">Linkedin</a>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <a href="/learn">Blog</a>
             </li>
           </ul>
 
