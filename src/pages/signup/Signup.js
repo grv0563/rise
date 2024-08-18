@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Signup.css";
-import {getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import {app} from "../../firebase/config"
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { app } from "../../firebase/config";
 
 // import { useSignup } from "../../hooks/useSignup";
 
@@ -11,7 +11,9 @@ function Signup() {
   const [displayname, setdispalyname] = useState("");
   // const [thumbnail, setthumbnail] = useState(null);
   // const { signup, isPending, error } = useSignup();
-
+  function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
   const handlesubmit = (e) => {
     e.preventDefault();
     console.log(email, password, displayname);
@@ -20,8 +22,8 @@ function Signup() {
       .then((userCredential) => {
         // Signed up
         const user = userCredential.user;
-        console.log(user)
-        
+        console.log(user);
+
         // ...
       })
       .catch((error) => {
@@ -29,6 +31,10 @@ function Signup() {
         const errorMessage = error.message;
         // ..
       });
+    const message = document.getElementById("successfull-message");
+    message.innerText = "Hey, " + displayname + " Registration got succesfull";
+    sleep(4000);
+    message.innerText = "";
     setemail("");
     setpassword("");
     setdispalyname("");
@@ -84,6 +90,7 @@ function Signup() {
           <a href="/login">Login</a>
         </button>
       </div>
+      <p id="successfull-message" className="successfull-message-calss"></p>
     </div>
   );
 }

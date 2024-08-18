@@ -67,3 +67,12 @@
   .login-btn{
     text-align: center;
   }
+  .successfull-message-calss{
+    position: fixed;
+    top: 0;
+    background-color: green;
+    font-weight: bolder;
+    
+    
+    
+  }
