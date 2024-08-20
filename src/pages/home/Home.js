@@ -3,7 +3,9 @@ import "./Home.css";
 import NavigationBar from "../../components/NavigationBar";
 import Footer from "../../components/Footer";
 import EHR_Features from '../../assets/ehr_fearures.png'
-
+import GreenTick from "../../assets/greenTick.png"
+import Inpregress from "../../assets/pending.png"
+import SheduledTask from '../../assets/sheduled.png'
 function Home() {
   return (
     <div className="home-container">
@@ -38,7 +40,7 @@ function Home() {
             </div>
             <p>
               We are pushing boundaries of Healthcare system with Blockahin
-              Technology
+              Technology, Artificial Intelligence and anylytics
             </p>
             <p>
               Follow us on{" "}
@@ -79,43 +81,43 @@ function Home() {
             <div className="phase-1 phase-common-css">
               <h3>Phase 1 - The Concept (Q2, 2024)</h3>
               <ul>
-                <li>The Concept Brainstorming</li>
-                <li>Market Research and Business Case</li>
-                <li>Feedback from Potential Customer and Industry experts</li>
-                <li>Pre-Launch Website</li>
-                <li>Potential Customer Communication Channel Creation</li>
-                <li>Website and App's Technical Architecture Design</li>
+                <li> <img src={GreenTick} alt="Work Completed" /> The Concept Brainstorming</li>
+                <li> <img src={GreenTick} alt="Work Completed" /> Market Research and Business Case</li>
+                <li> <img src={GreenTick} alt="Work Completed" /> Feedback from Potential Customer and Industry experts</li>
+                <li><img src={GreenTick} alt="Work Completed" /> Pre-Launch Website</li>
+                <li> <img src={Inpregress} alt="Work inprogress" /> Potential Customer Communication Channel Creation</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Website and App's Technical Architecture Design</li>
               </ul>
             </div>
             <div className="phase-2 phase-common-css">
               <h3>Phase 2 - The MVP and The Product Market Fit (Q3, 2024)</h3>
               <ul>
-                <li>MVP Development</li>
-                <li>Go to Market (GMT) Strategy and Marketing Planning</li>
-                <li>Pricing Model, Pitching Customer and Customer Feedback</li>
-                <li>Finding product-market-fit</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> MVP Development</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Go to Market (GMT) Strategy and Marketing Planning</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Pricing Model, Pitching Customer and Customer Feedback</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Finding product-market-fit</li>
               </ul>
             </div>
             <div className="phase-3  phase-common-css">
               <h3>Phase 3 - The Growth (Q4,2024)</h3>
               <ul>
-                <li>Developing the Mobile App</li>
-                <li>Customer Acquisition strategy</li>
-                <li>Expanding the beyond the India</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Developing the Mobile App</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Customer Acquisition strategy</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Expanding the beyond the India</li>
               </ul>
             </div>
             <div className="phase-4  phase-common-css">
               <h3>Phase 4 - The Scale(Q1,2025)</h3>
               <ul>
-                <li>Standardization of Business process</li>
+                <li> <img src={SheduledTask} alt="Work Scheduled" /> Standardization of Business process</li>
                 <li>
-                  Strategies for Company's Effective and Efficient Operations
+                <img src={SheduledTask} alt="Work Scheduled" /> Strategies for Company's Effective and Efficient Operations
                 </li>
               </ul>
             </div>
           </div>
           <div className="Whitepaper">
-            <p>Learn more About NextGen EHR System?</p>
+            <p>Learn more About NextGen EHR and RISE System?</p>
             <button className="btn"><a href="https://gaurav-book-store.gitbook.io/nextgen-ehr">WhitePaper</a></button>
             <p>To Contact: Please Leave Email on</p>
             <p>grv.shakya0563@gmail.com</p>

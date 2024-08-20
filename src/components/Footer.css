@@ -114,6 +114,8 @@
   footer .top .pages img{
     height: 150px;
     width: 150px;
+    border: 2px black solid;
+    border-radius: 5px;
   }
   
   footer .top .pages ul {
