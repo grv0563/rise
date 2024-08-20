@@ -27,7 +27,7 @@ function Home() {
             <div className="call-to-action">
               <button className="btn">
                 <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr/">
-                  RoadMap
+                  Research
                 </a>
               </button>
               <button className="btn">
