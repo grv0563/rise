@@ -10,7 +10,11 @@ function NavigationBar() {
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">
-        <img src={logo} alt="company logo" />
+        <img className="company-logo" src={logo} alt="company logo" />
+        </Navbar.Brand>
+        <Navbar.Brand href="/">
+        <h5 >NextGen </h5>
+        <h6>EHR</h6>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,9 +36,11 @@ function NavigationBar() {
             </NavDropdown>
           </Nav>
           <Nav style={{textAlign:"center"}}>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
+            <Nav.Link href="/login">
+              <button className="btn">Login</button>
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="/signup">
+              <button className="btn">register</button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
