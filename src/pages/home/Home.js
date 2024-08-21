@@ -60,7 +60,7 @@ function Home() {
             <div className="Problem-statement">
               <p>
                 India is largest emerging market and counts 17.78%(1.45B) of
-                world Population which means it’s Healthcare needs are
+                world Population which means it's Healthcare needs are
                 humongous. Healthcare is Highly regulated and needs lot
                 information maintenance and processing systems. All this deduce
                 down to need of Electronic Healthcare records(EHR) system to
@@ -72,7 +72,7 @@ function Home() {
               <ol>
                 <li>1. Out of Pocket Expenditure on Healthcare.</li>
                 <li>
-                  2. Quality Healthcare Access / Pretty Uncommon not having
+                  2. Quality Healthcare Access / Pretty Common not having
                   access at all.
                 </li>
               </ol>

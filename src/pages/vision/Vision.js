@@ -20,12 +20,13 @@ function Vision() {
             </div>
           </div>
           <div className=" phase-common-css  aim-image">
-            <h3>
+            <h3><b>Ultimate Vision <img src={AimImg} alt="Compnay Vision" /></b></h3>
+            <p>
               {" "}
-              Ulimate Vision <img src={AimImg} alt="Compnay Vision" /> -
+              
               Improving Public Health Delivery, Healthcare Provider's Efficiency and Effectivness, Patient Experience, Accessibility and
               Medical Research
-            </h3>
+            </p>
           </div>
         </div>
       </div>

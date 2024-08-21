@@ -20,7 +20,7 @@ function QRcode() {
             <a href="https://www.linkedin.com/company/nextgen-ehr">Linkedin</a>
           </button>
         </p>
-        <p> Please Leave Emial on: <email>grv.shakya0563@gmail.com</email></p>
+        <p> Please Leave Email on: <email>grv.shakya0563@gmail.com</email></p>
       </div>
       <div className="qrcode-footer">
         <Footer />
