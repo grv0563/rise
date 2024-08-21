@@ -17,9 +17,15 @@ function Home() {
         <div className="home-main-area-intro">
           <div className="home-main-area-intro-1">
             <div className="home-main-area-intro-header">
+            <p className="rise-color-coding">
+              <b style={{ fontSize: "40px" }}>R</b>esponsive{" "}
+              <b style={{ fontSize: "40px" }}>I</b>nformation{" "}
+              <b style={{ fontSize: "40px" }}>S</b>haring for{" "}
+              <b style={{ fontSize: "40px" }}>E</b>cosystem for Healthcare
+            </p>
               <h2>
                 Revitalizing Healthcare ecosystem with{" "}
-                <span>Intelligent QR Code Based </span>
+                <span>Patient centric Intelligent QR Code Based </span>
               </h2>
               <h2 className="home-main-area-intro-header-colored-text">
                 {" "}
