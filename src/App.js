@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Signup from "./pages/signup/Signup";
+import Signup from "./pages/auth/signup/Signup";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import QRcode from "./pages/qrcode/QRcode";
@@ -10,7 +10,7 @@ import Mission from "./pages/mission/Mission";
 import Learn from "./pages/learn/Learn";
 import Values from "./pages/values/Values";
 import AfterScan from "./pages/qrcode/AfterScan";
-import Login from "./pages/login/Login";
+import Login from "./pages/auth/login/Login";
 import Scan from "./pages/qrcode/Scan"
 import Vision from "./pages/vision/Vision"
 import Aboutus from "./pages/about/Aboutus"

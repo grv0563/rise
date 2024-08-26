@@ -21,6 +21,7 @@
             linear-gradient(336deg, rgba(0, 0, 14, 0.8), rgba(0,0,255,0) 70.71%); */
 }
 .home-main-area-intro-1 {
+  /* margin-top: 20px; */
   height: inherit;
   /* background-color: aqua; */
   max-width: fit-content;
@@ -29,6 +30,7 @@
   padding: 10px;
   border: 4px aqua solid;
   border-radius: 70px;
+  
 }
 .home-main-area-intro-1 p {
   color: rgb(231, 231, 230);
