@@ -4,7 +4,7 @@ import "./App.css";
 import Signup from "./pages/auth/signup/Signup";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
-import QRcode from "./pages/qrcode/QRcode";
+import QRgenerator from "./pages/qrcode/QRgenerator";
 import Schedules from "./pages/schedules/Schedules";
 import Mission from "./pages/mission/Mission";
 import Learn from "./pages/learn/Learn";
@@ -27,7 +27,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/qrcode" element={<QRcode />} />
+        <Route path="/qrcode" element={<QRgenerator />} />
         <Route path="/qrscan" element={<Scan />} />
         <Route path="/afterscan" element={<AfterScan />} />
         <Route path="/shedules" element={<Schedules />} />
