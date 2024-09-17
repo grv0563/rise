@@ -3,7 +3,8 @@ p{
     margin-top: 15px;
 }
 .btn .login-btn button{ 
-    padding-bottom: 40px;
+    padding: 40px;
+    margin: 20px;
 }
 .register-btn{
     text-align: center;

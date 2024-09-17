@@ -32,6 +32,10 @@
   border-radius: 70px;
   
 }
+.research-button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .home-main-area-intro-1 p {
   color: rgb(231, 231, 230);
 }

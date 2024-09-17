@@ -33,12 +33,12 @@ function Home() {
               </h2>
             </div>
             <div className="call-to-action">
-              <button className="btn">
+              <button className="btn research-button ">
                 <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr/">
                   Research
                 </a>
               </button>
-              <button className="btn">
+              <button className="btn research-button">
                 <a href="https://www.linkedin.com/company/nextgen-ehr">
                   Connect
                 </a>
