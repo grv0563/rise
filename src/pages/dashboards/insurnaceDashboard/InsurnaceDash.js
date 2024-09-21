@@ -1,13 +1,13 @@
 import React from 'react';
 import "./InsurnaceDash.css"
 import Footer from '../../../components/Footer';
-import NavigationBar from '../../../components/NavigationBar';
+import LoggedIN_navBar from '../../../components/LoggedIN_navBar';
 
 function InsurnaceDash() {
   return (
     <div className='isurnace-coantiner'>
         <div className='isnurance-header'>
-        <NavigationBar userName="Y Health Insurer Pvt Ltd" />
+        <LoggedIN_navBar userName="Y Health Insurer Pvt Ltd" />
         </div>
         <div className='insurnace-mainarea'>
         <h1>Insurnace company Dashboard</h1>

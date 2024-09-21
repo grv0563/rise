@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Summarize from "./Summarize";
 import Prescribe from "./Prescribe";
-import NavigationBar from "../../components/NavigationBar";
+import LoggedIN_navBar from "../../components/LoggedIN_navBar";
 
 let drugId = 0;
 let patientHealthRecords = {
@@ -48,7 +48,7 @@ function AfterScan() {
   return (
     <div className="afterscan-container">
       <div className="afterscan-header">
-        <NavigationBar userName="Dr. Gaurav Shakya" />
+        <LoggedIN_navBar userName="Dr. Gaurav Shakya" />
       </div>
       <div className="afterscan-main">
         <h1>Patient History</h1>

@@ -6,6 +6,7 @@ import interval from "../../../assets/interval.png";
 import MedicalHistoryExplain from "./MedicalHistoryExplain";
 import Search from "./Search";
 import NavigationBar from "../../../components/NavigationBar";
+import LoggedIN_navBar from "../../../components/LoggedIN_navBar";
 
 let patientHealthRecords = {
   medical_tests: ["test1", "test2"],
@@ -26,7 +27,7 @@ let searchString="";
   return (
     <div className="afterscan-container">
       <div className="afterscan-header">
-        <NavigationBar userName="MR. Gaurav Shakya (Patient)" />
+        <LoggedIN_navBar userName="MR. Gaurav Shakya (Patient)" />
       </div>
       <div className="afterscan-main">
         <h1>Patient History (demo)</h1>

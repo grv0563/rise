@@ -10,7 +10,7 @@ import interval from "../../assets/interval.png";
 import Prescribe, { Datashare } from "../qrcode/Prescribe";
 import Summarize from "../qrcode/Summarize";
 import Explore from "./Explore";
-import NavigationBar from "../../components/NavigationBar";
+import LoggedIN_navBar from "../../components/LoggedIN_navBar";
 
 let drugId = 0;
 let patientHealthRecords = {
@@ -43,7 +43,7 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
-        <NavigationBar userName="Dr. Gaurav Shakya" />
+        <LoggedIN_navBar userName="Dr. Gaurav Shakya" />
       </div>
       <div className="dashboard-mainarea">
         <h1>Doctor's EHR dashboard</h1>

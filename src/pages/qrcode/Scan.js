@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import "./Scan.css";
 import { Html5QrcodeScanner } from "html5-qrcode";
 import NavigationBar from "../../components/NavigationBar";
+import LoggedIN_navBar from "../../components/LoggedIN_navBar";
 
 function Scan() {
   const [scanresult, setscanResult] = useState(null);
@@ -30,7 +31,7 @@ function Scan() {
   return (
     <div className="qrscan-container">
       <div className="qrscan-header">
-        <NavigationBar />
+        <LoggedIN_navBar />
       </div>
       <div className="qrscan-main-area">
         {scanresult ? (

@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../../../components/Footer";
-import NavigationBar from "../../../components/NavigationBar";
+import LoggedIN_navBar from "../../../components/LoggedIN_navBar";
 
 function ResearchDashboard() {
   return (
     <div className="research-dashboard-container">
       <div className="research-dashboard-container-header">
-        <NavigationBar/>
+        <LoggedIN_navBar/>
       </div>
       <div className="research-dashboard-container-main">
         <h1>Research Dashboard</h1>

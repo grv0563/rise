@@ -81,6 +81,7 @@ function Signup() {
             <option value="Option 3">Testing Center</option>
             <option value="Option 4">Pharma/Life-Science Company</option>
             <option value="Option 5">Insurance Company</option>
+            <option value="Option 6">Research Institute/College/School</option>
           </select>
         </label>
         {/* <label>
