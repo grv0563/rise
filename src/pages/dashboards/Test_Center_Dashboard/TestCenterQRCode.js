@@ -10,7 +10,7 @@ function TestCenterQRCode() {
     <div className="test-qrcode-container">
       <LoggedIN_navBar userName="XYZ Testing Center" urlName="/testqrcode" />
       <QRgenerator
-        qrcodeURL={scanurl}
+        qrcodeURL="https://staging.grvnotes.com/testcenterprofile"
         name="XYZ Testing Center"
       />
     </div>
