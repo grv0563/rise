@@ -29,7 +29,7 @@ function Mission() {
               <b>
                 2. Reducing Cost Of Healthcare Delivery in India by solving the
                 pain point of Healthcare insurance claim cycle delivery using
-                Balockchain and AI
+                Blockchain and AI
               </b>
             </li>
           </ul>

@@ -34,12 +34,12 @@ function Home() {
             </div>
             <div className="call-to-action">
               <button className="btn research-button ">
-                <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr/">
+                <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr/" target="_blank">
                   Research
                 </a>
               </button>
               <button className="btn research-button">
-                <a href="https://www.linkedin.com/company/nextgen-ehr">
+                <a href="https://www.linkedin.com/company/nextgen-ehr" target="_blank">
                   Connect
                 </a>
               </button>
@@ -50,7 +50,7 @@ function Home() {
             </p>
             <p>
               Follow us on{" "}
-              <a href="https://www.linkedin.com/company/nextgen-ehr">
+              <a href="https://www.linkedin.com/company/nextgen-ehr" target="_blank">
                 Linkedin
               </a>
             </p>
@@ -182,7 +182,7 @@ function Home() {
           <div className="Whitepaper">
             <p>Learn more About NextGen EHR and RISE System?</p>
             <button className="btn">
-              <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr">
+              <a href="https://gaurav-book-store.gitbook.io/nextgen-ehr" target="_blank">
                 WhitePaper
               </a>
             </button>
