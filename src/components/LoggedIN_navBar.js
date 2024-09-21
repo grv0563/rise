@@ -23,7 +23,7 @@ function LoggedIN_navBar(props) {
               <Nav className="me-auto" style={{ textAlign: "center" }}>
                 {/* <Nav.Link href="/qrcode">QR</Nav.Link>
             <Nav.Link href="/qrscan">Scan</Nav.Link> */}
-                <Nav.Link href="/qrcode">QR</Nav.Link>
+                <Nav.Link href={props.urlName}>QR</Nav.Link>
                 <Nav.Link href="/qrscan">Scan</Nav.Link>
                 <Nav.Link href="/learn">Learn</Nav.Link>
                 <NavDropdown title="Company" id="collapsible-nav-dropdown">

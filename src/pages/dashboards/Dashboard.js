@@ -43,7 +43,7 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
-        <LoggedIN_navBar userName="Dr. Gaurav Shakya" />
+        <LoggedIN_navBar userName="Dr. Gaurav Shakya" urlName="/docterqrcode" />
       </div>
       <div className="dashboard-mainarea">
         <h1>Doctor's EHR dashboard</h1>

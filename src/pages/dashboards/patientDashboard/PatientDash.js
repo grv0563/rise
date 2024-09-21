@@ -27,7 +27,7 @@ let searchString="";
   return (
     <div className="afterscan-container">
       <div className="afterscan-header">
-        <LoggedIN_navBar userName="MR. Gaurav Shakya (Patient)" />
+        <LoggedIN_navBar userName="MR. Gaurav Shakya (Patient)"  urlName="/patientqrcode" />
       </div>
       <div className="afterscan-main">
         <h1>Patient History (demo)</h1>
