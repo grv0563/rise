@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../assets/logo.png"
 import "./NavigationBar.css"
 
-function NavigationBar() {
+function NavigationBar(props) {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>

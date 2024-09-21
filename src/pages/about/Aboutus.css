@@ -1,20 +1,30 @@
-.aboutus-main-area{
-    text-align: center;
-    margin-right: 30px;
-    margin-left: 30px;
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    /* background: #fbc2eb; */
     
-}
-.grv-profile img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 3px solid #555;
-    margin-bottom: 20px;
-}
- a{
- color: blue;
-}
-.grv-profile-description  p{
-    text-align: justify;
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1)); */
     
-}
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1)) */
+    }
+
+    .profile-template-conatiner{
+        
+        background: -webkit-linear-gradient(
+    74deg,
+    #162a49 0,
+    /* #4285f4 9%,
+    #ad4f18,
+    #521b21 20%,
+    #412629 24%,
+    #4b0e91 35%, */
+    /* #4285f4 44%, */
+    /* #9b72cb 50%, */
+    #b14651 56%,
+    #c74a4a 75%,
+    #4b1919 100%
+  );
+        height: "250px"
+        
+    }
