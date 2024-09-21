@@ -38,7 +38,7 @@ function Scan() {
           <div className="qr-scan-result">
             
             Success : <a href={scanresult}>{scanresult}</a>{" "}
-            {window.location.replace("https://staging.grvnotes.com/afterscan")}
+            {window.location.replace(scanresult)}
           </div>
           
         ) : (
