@@ -8,7 +8,7 @@ function QRgenerator() {
   return (
     <div className="qrcode-conatiner">
       <div className="qrcode-header">
-        <NavigationBar/>
+        <NavigationBar />
       </div>
       <div className="qrcode-main-area">
         <h2>Please scan QR Code to get Patient's Health records</h2>

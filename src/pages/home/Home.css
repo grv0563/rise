@@ -75,7 +75,21 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  background: -webkit-linear-gradient(#092399, #7e2f01);
+  /* background: -webkit-linear-gradient(#ffffff , #0432ff ); */
+  background: -webkit-linear-gradient(
+    74deg,
+    #4285f4 0,
+    #4285f4 9%,
+    #7e2f01,
+    #d96570 20%,
+    #d96570 24%,
+    #9b72cb 35%,
+    #4285f4 44%,
+    #9b72cb 50%,
+    #d96570 56%,
+    #fff 75%,
+    #fff 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

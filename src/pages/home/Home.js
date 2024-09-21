@@ -97,14 +97,15 @@ function Home() {
                   <img src={GreenTick} alt="Work Completed" /> Market Research
                   and Business Case
                 </li>
-                <li>
-                  {" "}
-                  <img src={GreenTick} alt="Work Completed" /> Feedback from
-                  Potential Customer and Industry experts
-                </li>
+
                 <li>
                   <img src={GreenTick} alt="Work Completed" /> Pre-Launch
-                  Website
+                  Website and prototype Creation
+                </li>
+                <li>
+                  {" "}
+                  <img src={Inpregress} alt="Work inprogress" /> Feedback from
+                  Potential Customer and Industry experts
                 </li>
                 <li>
                   {" "}

@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import "./AfterScan.css";
 import interval from "../../assets/interval.png";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import Summarize from "./Summarize";
+import Prescribe from "./Prescribe";
 import NavigationBar from "../../components/NavigationBar";
-
 
 let drugId = 0;
 let patientHealthRecords = {
@@ -12,7 +15,7 @@ let patientHealthRecords = {
   x_rays: ["x_rays1", "x_rays2"],
   mri_scans: ["mris1", "mris2"],
 };
-
+let prescribed_drug;
 
 function AfterScan() {
   const [drug, setdrug] = useState();
@@ -22,6 +25,7 @@ function AfterScan() {
   const handleprescription = () => {
     //write code to implement the prescription process
     alert(" congratulations! prescription Done");
+    window.location.replace("/dashboard");
   };
   const handleSummarize = () => {
     //write code to summirize the patient history with gemini AI api
@@ -31,23 +35,23 @@ function AfterScan() {
     // alert("Drug added in Precription");
     setprescribed_drug([...prescribed_drug, { id: drugId++, name: drug }]);
     setdrug("");
+    console.log(prescribed_drug);
   };
 
   const handle_interval = () => {
-    alert(" Presciption medicine interval");
+    alert("interval");
   };
-  const handleFileUpload =(e)=>{
+  const handleFileUpload = (e) => {
     e.preventDefault();
-    serfile(e.target.value)
-
-  }
+    serfile(e.target.value);
+  };
   return (
     <div className="afterscan-container">
       <div className="afterscan-header">
-        <NavigationBar/>
+        <NavigationBar userName="Dr. Gaurav Shakya" />
       </div>
       <div className="afterscan-main">
-        <h1>Patient History(demo patient)</h1>
+        <h1>Patient History</h1>
         <ul>
           <li>Medical_tests</li>
           <p>{patientHealthRecords.medical_tests[0]}</p>
@@ -63,36 +67,9 @@ function AfterScan() {
           <p>{patientHealthRecords.prescriptions[0]}</p>
           <p>{patientHealthRecords.prescriptions[1]}</p>
         </ul>
-        <button onClick={handleSummarize}>Summarize</button>
-        <button onClick={handleprescription}>Prescribe</button>
-        <ul>
-          {prescribed_drug.map((drug) => (
-            <li key={drug.id}>{drug.name}</li>
-          ))}
-        </ul>
-        <ul>
-          <li>{file}</li>
-        </ul>
-        <div className="afterscan-prescribe-drug">
-          <div className="input-drug">
-            <input
-              placeholder="Type drug name"
-              value={drug}
-              onChange={(e) => {
-                setdrug(e.target.value);
-              }}
-            />
-            <input value={file} onChange={handleFileUpload} className="upload-file" content="upload" type="file" />
-          </div>
-
-          <button onClick={handle_drug_adding_in_prescription}>
-            <span>&#43;</span>
-          </button>
-          <button className="interval" onClick={handle_interval}>
-            <span>
-              <img src={interval} />
-            </span>
-          </button>
+        <div className="buttions">
+          <Summarize />
+          <Prescribe />
         </div>
       </div>
       <div className="aterscan-footer">

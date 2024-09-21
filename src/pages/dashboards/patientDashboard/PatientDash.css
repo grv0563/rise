@@ -1,0 +1,118 @@
+* {
+}
+.afterscan-main {
+  text-align: center;
+}
+.afterscan-main .explore input{
+
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+.afterscan-main .explore button{
+
+  text-align: center;
+  margin: 10px;
+  
+    background: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1em;
+    border: 1px solid var(--primary-color);
+
+}
+
+.afterscan-main .explore button:hover{
+  color: white;
+  background-color: blueviolet;
+}
+.afterscan-main .explain-medical-history{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.afterscan-prescribe-drug button {
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60px;
+  height: 40px;
+  border-style: inset;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  /* background-color: white; */
+  /* background-color: blue; */
+}
+.afterscan-prescribe-drug input {
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 90%;
+  height: 40px;
+  /* background-color: brown; */
+}
+.afterscan-prescribe-drug {
+  display: flex;
+}
+.afterscan-main .afterscan-prescribe-drug button:hover{
+    background-color: blueviolet;
+}
+.afterscan-prescribe-drug .interval {
+  width: 40px;
+  height: 40px;
+  border-style: inset;
+  border: 0px solid black;
+  border-radius: 0px;
+  color: black;
+  /* background-color: white; */
+  /* background-color: blue; */
+}
+.afterscan-prescribe-drug .input-drug {
+  display: flex;
+  width: 100%;
+  /* background-color: rgb(236, 130, 130); */
+
+  height: 45px;
+  border-style: inset;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  /* background-color: white; */
+}
+.afterscan-prescribe-drug .input-drug input{
+  width: 100%;
+ 
+  border: 0px;
+  border-radius: 0px bold white;
+  /* background-color: chartreuse; */
+}
+.afterscan-prescribe-drug .input-drug img{
+  display: inline-block;
+  /* background-color: blueviolet; */
+  
+}
+
+.afterscan-prescribe-drug .input-drug .upload-file {
+  /* display: none; */
+  text-align: center;
+  content: 'upload';
+  width: 120px;
+  height: 40px;
+  
+  /* background-color: rgb(26, 24, 24); */
+}
+span {
+  content: "\002B";
+}
+.afterscan-main ul li {
+  font-weight: bolder;
+  font-size: 20px;
+}
+img {
+  width: 40px;
+  height: 40px;
+}

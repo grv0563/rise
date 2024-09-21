@@ -1,31 +1,53 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import {app} from "../../../firebase/config"
-// import { useSignup } from "../../hooks/useSignup";
 
-function Signup() {
+function Login() {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
+  const [selectedActor, setSelectedActor] = useState("Option 1");
+
   const handlesubmit = (e) => {
     e.preventDefault();
     console.log(email, password);
-    const auth = getAuth(app);
-    signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        console.log(user)
-        // ...
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-      });
 
     setemail("");
     setpassword("");
+    // window.location.replace("/dashboard");
+    console.log(selectedActor);
+    if(selectedActor == "Option 1"){
+      window.location.replace("/patientDashboard");
+  
+    }
+    if(selectedActor == "Option 2"){
+      window.location.replace("/dashboard");
+      
+    }
+    if(selectedActor == "Option 3"){
+      window.location.replace("/testcenterDashboard");
+      
+    }
+    if(selectedActor == "Option 4"){
+      window.location.replace("/pharmaDashboard");
+      
+    }
+    if(selectedActor == "Option 5"){
+      window.location.replace("/insurnaceDashboard");
+      
+    }
+    if(selectedActor == "Option 6"){
+      window.location.replace("/researchdashboard");
+      
+    }
+  
   };
+
+  const handleHealthcareActor = (e) => {
+    e.preventDefault();
+    console.log(selectedActor);
+    setSelectedActor(e.target.value);
+  };
+
+
   return (
     <div className="auth-form">
       <form onSubmit={handlesubmit}>
@@ -52,23 +74,23 @@ function Signup() {
             value={password}
           />
         </label>
-        {/* <label>
-        <span>Display Name :</span>
-        <input
-          required
-          type="text"
-          onChange={(e) => {
-            setdispalyname(e.target.value);
-          }}
-          value={displayname}
-        />
-      </label> */}
-        {/* <label>
-        <span>Profile thumbnail:</span>
-        <input required type="file" />
-      </label> */}
+        <label>
+          <span>Select Category:</span>
+          <select value={selectedActor} onChange={handleHealthcareActor}>
+            <option value="Option 1">Patient</option>
+            <option value="Option 2">Healthcare Provider</option>
 
-        <button className="btn login-btn">Login</button>
+            <option value="Option 3">Testing Center</option>
+            <option value="Option 4">Pharma/Life-Science Company</option>
+            <option value="Option 5">Insurance Company</option>
+            <option value="Option 6">Research Institute/College/School</option>
+
+          </select>
+        </label>
+        <button className="btn login-btn">
+          {/* <a href="/dashboard">Login</a> */}
+          Login
+        </button>
       </form>
 
       <p>
@@ -78,8 +100,13 @@ function Signup() {
       </p>
       <hr></hr>
       <div className="register-btn">
-        <button className="btn">
-          <a href="/signup"> Register</a>
+        <button
+          onClick={(e) => {
+            window.location.replace("/signup");
+          }}
+          className="btn"
+        >
+          Register
         </button>
       </div>
       <p>
@@ -93,4 +120,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Login;

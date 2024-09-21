@@ -21,8 +21,9 @@ function RoadMap() {
               <ul>
                 <li> <img src={GreenTick} alt="Work Completed" /> The Concept Brainstorming</li>
                 <li> <img src={GreenTick} alt="Work Completed" /> Market Research and Business Case</li>
-                <li> <img src={GreenTick} alt="Work Completed" /> Feedback from Potential Customer and Industry experts</li>
-                <li><img src={GreenTick} alt="Work Completed" /> Pre-Launch Website</li>
+                
+                <li><img src={GreenTick} alt="Work Completed" /> Pre-Launch Website and prototype Creation</li>
+                <li> <img  src={Inpregress} alt="Work inprogress"  /> Feedback from Potential Customer and Industry experts</li>
                 <li> <img src={Inpregress} alt="Work inprogress" /> Potential Customer Communication Channel Creation</li>
                 <li> <img src={SheduledTask} alt="Work Scheduled" /> Website and App's Technical Architecture Design</li>
               </ul>

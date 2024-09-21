@@ -30,14 +30,14 @@ function Scan() {
   return (
     <div className="qrscan-container">
       <div className="qrscan-header">
-        <NavigationBar/>
+        <NavigationBar />
       </div>
       <div className="qrscan-main-area">
         {scanresult ? (
           <div className="qr-scan-result">
             
             Success : <a href={scanresult}>{scanresult}</a>{" "}
-            {window.location.replace("https://rise.synapticagi.com/afterscan")}
+            {window.location.replace("https://staging.grvnotes.com/afterscan")}
           </div>
           
         ) : (
