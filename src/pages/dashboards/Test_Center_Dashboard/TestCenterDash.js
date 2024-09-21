@@ -7,7 +7,7 @@ function TestCenterDash() {
   return (
     <div className='testingcenter-container'>
     <div className='testingcenter-header'>
-        <LoggedIN_navBar userName="XYZ Testing Center"/>
+        <LoggedIN_navBar userName="XYZ Testing Center"  urlName="/testqrcode"/>
     </div>
     <div className='testingcenter-mainarea'>
     <h1>Testing LAB Dashboard</h1>

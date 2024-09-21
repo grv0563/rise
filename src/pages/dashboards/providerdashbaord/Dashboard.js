@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import "./Dashboard.css";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer";
 import Accordion from "react-bootstrap/Accordion";
-import SearchBar from "./componenets/SearchBar";
-import Notification from "./componenets/Notification";
-import DashboardPagination from "./componenets/DashboardPagination";
-import new_message_icon from "../../assets/new-message-icon.png";
-import interval from "../../assets/interval.png";
-import Prescribe, { Datashare } from "../qrcode/Prescribe";
-import Summarize from "../qrcode/Summarize";
+import SearchBar from "../componenets/SearchBar";
+import Notification from "../componenets/Notification";
+import DashboardPagination from "../componenets/DashboardPagination";
+import new_message_icon from "../../../assets/new-message-icon.png";
+import Summarize from "../../qrcode/Summarize";
 import Explore from "./Explore";
-import LoggedIN_navBar from "../../components/LoggedIN_navBar";
+import LoggedIN_navBar from "../../../components/LoggedIN_navBar";
+import Prescribe from "../../qrcode/Prescribe";
 
 let drugId = 0;
 let patientHealthRecords = {

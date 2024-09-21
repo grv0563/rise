@@ -2,11 +2,10 @@ import React from "react";
 import { useState } from "react";
 import Footer from "../../../components/Footer";
 import "./PatientDash.css";
-import interval from "../../../assets/interval.png";
 import MedicalHistoryExplain from "./MedicalHistoryExplain";
 import Search from "./Search";
-import NavigationBar from "../../../components/NavigationBar";
 import LoggedIN_navBar from "../../../components/LoggedIN_navBar";
+
 
 let patientHealthRecords = {
   medical_tests: ["test1", "test2"],
@@ -27,7 +26,7 @@ let searchString="";
   return (
     <div className="afterscan-container">
       <div className="afterscan-header">
-        <LoggedIN_navBar userName="MR. Gaurav Shakya (Patient)"  urlName="/patientqrcode" />
+        <LoggedIN_navBar userName="MR. Gaurav Shakya (Patient)"   urlName="/patientqrcode" />
       </div>
       <div className="afterscan-main">
         <h1>Patient History (demo)</h1>

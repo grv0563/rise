@@ -6,7 +6,7 @@ function ResearchDashboard() {
   return (
     <div className="research-dashboard-container">
       <div className="research-dashboard-container-header">
-        <LoggedIN_navBar/>
+        <LoggedIN_navBar userName="XYZ Medical Research Pvt Ltd" urlName="/researchqrcode" />
       </div>
       <div className="research-dashboard-container-main">
         <h1>Research Dashboard</h1>

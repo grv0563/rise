@@ -10,7 +10,7 @@ function QRgenerator(props) {
         
       </div>
       <div className="qrcode-main-area">
-        <h2>Please scan QR Code to get {props.name}'s Health records</h2>
+        <h2>Please scan QR Code to get {props.name}'s Information</h2>
         <QRCode
         className="qr-code-styles"
           size={256}

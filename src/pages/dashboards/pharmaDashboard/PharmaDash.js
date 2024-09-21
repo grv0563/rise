@@ -6,7 +6,7 @@ function PharmaDash() {
   return (
     <div className='pharma-container'>
     <div className='pharma-header'>
-      <LoggedIN_navBar userName="Z pharmaceutics Ltd" />
+      <LoggedIN_navBar userName="Z Pharma Pvt Ltd" urlName="/pharmaqrcode" />
     </div>
     <div className='pharma-mainarea'>
     <h1>Pharmacy or Life Science Dashboard</h1>
