@@ -2,12 +2,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Mission from "./pages/mission/Mission";
+import Mission from "./pages/company/mission/Mission";
 import Learn from "./pages/learn/Learn";
-import Values from "./pages/values/Values"
-import Vision from "./pages/vision/Vision"
-import Aboutus from "./pages/about/Aboutus"
-import RoadMap from "./pages/roadmap/RoadMap"
+import Values from "./pages/company/values/Values"
+import Vision from "./pages/company/vision/Vision"
+import Aboutus from "./pages/company/about/Aboutus"
+import RoadMap from "./pages/company/roadmap/RoadMap"
 import Signup from "./pages/auth/signup/Signup";
 import Home from "./pages/home/Home";
 import Schedules from "./pages/schedules/Schedules";
@@ -29,7 +29,7 @@ import ResearchDashboard from "./pages/dashboards/researchDashboard/ResearchDash
 import PharmaDash from "./pages/dashboards/pharmaDashboard/PharmaDash";
 import PatientQRCode from "./pages/dashboards/patientDashboard/PatientQRCode";
 import DocterQRCode from "./pages/dashboards/providerdashbaord/DocterQRCode";
-import DocterProfile from "./pages/dashboards/providerdashbaord/DocterProfile";
+import DocterProfile from "./pages/profile/DocterProfile";
 import InsurerQRCode from "./pages/dashboards/insurnaceDashboard/InsurerQRCode";
 import PharmaQRCode from "./pages/dashboards/pharmaDashboard/PharmaQRCode";
 import RsearchQRCode from "./pages/dashboards/researchDashboard/RsearchQRCode";

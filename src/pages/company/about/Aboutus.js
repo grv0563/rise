@@ -1,13 +1,14 @@
 import React from 'react'
 import Profile_template from './Profile_template'
-import NavigationBar from '../../components/NavigationBar'
+import NavigationBar from '../../../components/NavigationBar'
+import FounderProfile from './FounderProfile'
 
 function Aboutus() {
   return (
     <div className='about-us-conatiner'>
       <NavigationBar/>
       
-      <Profile_template/>
+      <FounderProfile/>
     </div>
   )
 }

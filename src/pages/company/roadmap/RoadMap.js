@@ -1,10 +1,10 @@
 import React from 'react'
-import NavigationBar from '../../components/NavigationBar'
-import Footer from '../../components/Footer'
+import NavigationBar from '../../../components/NavigationBar'
+import Footer from '../../../components/Footer'
 import "./RoadMap.css"
-import GreenTick from "../../assets/greenTick.png"
-import Inpregress from "../../assets/pending.png"
-import SheduledTask from '../../assets/sheduled.png'
+import GreenTick from "../../../assets/greenTick.png"
+import Inpregress from "../../../assets/pending.png"
+import SheduledTask from '../../../assets/sheduled.png'
 
 function RoadMap() {
   return (

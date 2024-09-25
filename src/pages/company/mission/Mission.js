@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../../components/NavigationBar";
+import Navbar from "../../../components/NavigationBar";
 import "./Mission.css";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer";
 function Mission() {
   return (
     <div className="mission-container">
@@ -10,9 +10,20 @@ function Mission() {
       </div>
       <div className="mission-main">
         <div className="mission-main-top">
-          <h4 style={{textAlign:"center"}}>What is Our Mission</h4>
-          <h6 style={{textAlign:"center"}}>Single Portal to access the Healthcare across India </h6>
-          <h4 style={{textAlign:"center"}}>Problem - What & Why</h4>
+          <h4 style={{ textAlign: "center" }}>What is Our Mission</h4>
+          <p style={{textAlign:"left", fontWeight:"bolder"}}>
+            {" "}
+            1. Mission of this project is the smooth, ease, and secure sharing
+            of health records of patients with priority focus on privacy,
+            patient's discretion and consent protection against their health
+            information processing and exchange.
+          </p>
+          <p style={{textAlign:"left", fontWeight:"bolder"}}>
+            2. Improving Public Health Delivery, Healthcare Provider's
+            Efficiency and Effectivness, Patient Experience, Accessibility and
+            Medical Research.
+          </p>
+          <h4 style={{ textAlign: "center" }}>Problem - What & Why</h4>
           <h6>
             We are Building Healthcare App to Address 2 Major problem of India's
             Healthcare System
@@ -33,7 +44,7 @@ function Mission() {
               </b>
             </li>
           </ul>
-          <h4 style={{textAlign:"center"}}>Solution is the Mission</h4>
+          <h4 style={{ textAlign: "center" }}>Solution is the Mission</h4>
           <h6>
             {" "}
             We are Building Healthcare App to Address 2 Major problem of India's
@@ -47,7 +58,7 @@ function Mission() {
             2. Reducing Cost Of Healthcare Delivery in India using Balockchain
             and AI{" "}
           </h6>
-          <h3 style={{textAlign:"center"}}>  Future Directions</h3>
+          <h3 style={{ textAlign: "center" }}> Future Directions</h3>
           <h6>
             {" "}
             1. Building Nation Wide Network of Healthcare
@@ -72,7 +83,6 @@ function Mission() {
             of Patient Experience{" "}
           </h6>
         </div>
-        
       </div>
 
       <Footer />

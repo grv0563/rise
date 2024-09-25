@@ -10,13 +10,13 @@ import {
   MDBBtn,
   MDBTypography,
 } from "mdb-react-ui-kit";
-import gaurav from "../../assets/gaurav.jpeg";
+import gaurav from "../../../assets/gaurav.jpeg";
 import "./Aboutus.css";
-import asi from "../../assets/asi.png";
-import healthchain from "../../assets/healthchain.png";
-import q from "../../assets/Q.png";
-import background from "../../assets/background.jpg";
-import Footer from "../../components/Footer";
+import asi from "../../../assets/asi.png";
+import healthchain from "../../../assets/healthchain.png";
+import q from "../../../assets/Q.png";
+import background from "../../../assets/background.jpg";
+import Footer from "../../../components/Footer";
 
 export default function Profile_template() {
   return (

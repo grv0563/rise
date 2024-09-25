@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardText, MDBCardBody, MDBCardImage, MDBTypography, MDBIcon } from 'mdb-react-ui-kit';
-
+import "./DocterProfile.css"
+import grvPhoto from "../../assets/gaurav.jpeg"
 export default function DocterProfile() {
   return (
     <section className="vh-100" style={{ backgroundColor: '#f4f5f7' }}>
@@ -11,15 +12,28 @@ export default function DocterProfile() {
               <MDBRow className="g-0">
                 <MDBCol md="4" className="gradient-custom text-center text-white"
                   style={{ borderTopLeftRadius: '.5rem', borderBottomLeftRadius: '.5rem' }}>
-                  <MDBCardImage src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                  <MDBCardImage src={grvPhoto}
                     alt="Avatar" className="my-5" style={{ width: '80px' }} fluid />
-                  <MDBTypography tag="h5">Marie Horwitz</MDBTypography>
-                  <MDBCardText>Web Designer</MDBCardText>
+                  <MDBTypography tag="h5" style={{color:"black"}}>Dr. Shakya</MDBTypography>
+                  <MDBCardText style={{color:"black"}}>cardiac surgeon</MDBCardText>
                   <MDBIcon far icon="edit mb-5" />
                 </MDBCol>
                 <MDBCol md="8">
                   <MDBCardBody className="p-4">
-                    <MDBTypography tag="h6">Information</MDBTypography>
+                    <MDBTypography tag="h6">Hospital Details</MDBTypography>
+                    <hr className="mt-0 mb-4" />
+                    <MDBRow className="pt-1">
+                      <MDBCol size="6" className="mb-3">
+                        <MDBTypography tag="h6">Address</MDBTypography>
+                        <MDBCardText className="text-muted">Door No: B1, Kanpur Road, Krishna Nagar, Lucknow - 226005 </MDBCardText>
+                      </MDBCol>
+                      <MDBCol size="6" className="mb-3">
+                        <MDBTypography tag="h6">Phone</MDBTypography>
+                        <MDBCardText className="text-muted">123 456 789</MDBCardText>
+                      </MDBCol>
+                    </MDBRow>
+
+                    <MDBTypography tag="h6">Docter Contact Details</MDBTypography>
                     <hr className="mt-0 mb-4" />
                     <MDBRow className="pt-1">
                       <MDBCol size="6" className="mb-3">
@@ -32,21 +46,8 @@ export default function DocterProfile() {
                       </MDBCol>
                     </MDBRow>
 
-                    <MDBTypography tag="h6">Information</MDBTypography>
-                    <hr className="mt-0 mb-4" />
-                    <MDBRow className="pt-1">
-                      <MDBCol size="6" className="mb-3">
-                        <MDBTypography tag="h6">Email</MDBTypography>
-                        <MDBCardText className="text-muted">info@example.com</MDBCardText>
-                      </MDBCol>
-                      <MDBCol size="6" className="mb-3">
-                        <MDBTypography tag="h6">Phone</MDBTypography>
-                        <MDBCardText className="text-muted">123 456 789</MDBCardText>
-                      </MDBCol>
-                    </MDBRow>
-
-                    <div className="d-flex justify-content-start">
-                      <a href="#!"><MDBIcon fab icon="facebook me-3" size="lg" /></a>
+                    <div  className="d-flex justify-content-start">
+                      <a style={{color:"black"}} href="#!"><MDBIcon fab icon="facebook me-3" size="lg" /></a>
                       <a href="#!"><MDBIcon fab icon="twitter me-3" size="lg" /></a>
                       <a href="#!"><MDBIcon fab icon="instagram me-3" size="lg" /></a>
                     </div>
