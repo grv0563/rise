@@ -17,7 +17,7 @@ import Login from "./pages/auth/login/Login";
 
 import Success from "./pages/auth/signup/Success";
 import Dashboard from "./pages/dashboards/providerdashbaord/Dashboard";
-import Profile from "./pages/profile/Profile";
+import Profile from "./pages/auth/profile/Profile";
 import SignOut from "./pages/auth/signout/SignOut";
 import PatientDash from "./pages/dashboards/patientDashboard/PatientDash";
 import InsurnaceDash from "./pages/dashboards/insurnaceDashboard/InsurnaceDash";
@@ -29,7 +29,7 @@ import ResearchDashboard from "./pages/dashboards/researchDashboard/ResearchDash
 import PharmaDash from "./pages/dashboards/pharmaDashboard/PharmaDash";
 import PatientQRCode from "./pages/dashboards/patientDashboard/PatientQRCode";
 import DocterQRCode from "./pages/dashboards/providerdashbaord/DocterQRCode";
-import DocterProfile from "./pages/profile/DocterProfile";
+import DocterProfile from "./pages/auth/profile/DocterProfile";
 import InsurerQRCode from "./pages/dashboards/insurnaceDashboard/InsurerQRCode";
 import PharmaQRCode from "./pages/dashboards/pharmaDashboard/PharmaQRCode";
 import RsearchQRCode from "./pages/dashboards/researchDashboard/RsearchQRCode";

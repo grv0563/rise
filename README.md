@@ -5,4 +5,4 @@ Revitalizing Healthcare ecosystem with Patient centric Intelligent QR Code Based
 Decentralized EHR System
 
 ## Please Visit
-https://synapticagi.com/ 
+https://rise.synapticagi.com/ 

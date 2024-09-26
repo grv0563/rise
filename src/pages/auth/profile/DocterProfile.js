@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardText, MDBCardBody, MDBCardImage, MDBTypography, MDBIcon } from 'mdb-react-ui-kit';
 import "./DocterProfile.css"
-import grvPhoto from "../../assets/gaurav.jpeg"
+import grvPhoto from "../../../assets/gaurav.jpeg"
 export default function DocterProfile() {
   return (
     <section className="vh-100" style={{ backgroundColor: '#f4f5f7' }}>
