@@ -2,7 +2,8 @@ import React from "react";
 import "./QRgenerator.css";
 import Footer from "../../components/Footer";
 import QRCode from "react-qr-code";
-let value="https://staging.grvnotes.com/afterscan"
+
+
 function QRgenerator(props) {
   return (
     <div className="qrcode-conatiner">

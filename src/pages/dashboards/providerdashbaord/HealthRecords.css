@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    /* background-color: #000; */
+}
+
+.patient-container .patient-list .accordion .accordion-item .accordion-header  button {
+   
+    background-color: blueviolet;
+    color: black;
+}

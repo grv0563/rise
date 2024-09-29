@@ -1,7 +1,9 @@
+import { render } from "@testing-library/react";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
+import Dashboard from "../dashboards/providerdashbaord/Dashboard";
 
 let drugId = 0;
 let descriptionId = 0;
@@ -16,6 +18,9 @@ function Prescribe() {
   const handleClose = () => setShow(false);
   const handleSaveChnages = (e) => {
     setShow(false);
+    render(
+      <Dashboard/>
+    )
   };
   const handleShow = () => setShow(true);
 
@@ -91,6 +96,7 @@ function Prescribe() {
             Close
           </Button>
           <Button variant="primary" onClick={handleSaveChnages}>
+          {/* Save Changes */}
             <a href="/dashboard">Save Changes</a>
           </Button>
         </Modal.Footer>

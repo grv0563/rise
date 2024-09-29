@@ -40,6 +40,7 @@ function Scan() {
 
             Success : <a href={scanresult}>{scanresult}</a>{" "}
             {window.location.replace(scanresult)}
+            
            
           </div>
 
