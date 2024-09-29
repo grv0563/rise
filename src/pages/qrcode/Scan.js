@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import Footer from "../../components/Footer";
 import "./Scan.css";
 import { Html5QrcodeScanner } from "html5-qrcode";
-import NavigationBar from "../../components/NavigationBar";
 import LoggedIN_navBar from "../../components/LoggedIN_navBar";
+
+let numrows=5;
 
 function Scan() {
   const [scanresult, setscanResult] = useState(null);
@@ -11,7 +12,7 @@ function Scan() {
     const scanner = new Html5QrcodeScanner("reader", {
       qrbox: {
         height: 400,
-        width:400,
+        width: 400,
       },
       fps: 5,
     });
@@ -20,7 +21,7 @@ function Scan() {
     function onSuccess(result) {
       scanner.clear();
       setscanResult(result);
-      
+
     }
 
     function onFailure(err) {
@@ -31,16 +32,17 @@ function Scan() {
   return (
     <div className="qrscan-container">
       <div className="qrscan-header">
-        <LoggedIN_navBar />
+      <LoggedIN_navBar userName="Dr. Gaurav Shakya" urlName="/docterqrcode" />
       </div>
       <div className="qrscan-main-area">
         {scanresult ? (
           <div className="qr-scan-result">
-            
+
             Success : <a href={scanresult}>{scanresult}</a>{" "}
             {window.location.replace(scanresult)}
+           
           </div>
-          
+
         ) : (
           <div id="reader"></div>
 

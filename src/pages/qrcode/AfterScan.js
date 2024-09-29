@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import "./AfterScan.css";
-import interval from "../../assets/interval.png";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import Summarize from "./Summarize";
 import Prescribe from "./Prescribe";
 import LoggedIN_navBar from "../../components/LoggedIN_navBar";

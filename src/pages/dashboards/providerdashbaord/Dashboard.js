@@ -58,7 +58,7 @@ function Dashboard() {
           speciality
         </p>
         <button className="btn">
-          <a href="/qrcode">show QR</a>
+          <a href="/docterqrcode">show QR</a>
         </button>
         <hr></hr>
         <h1>Administer Patients</h1>
